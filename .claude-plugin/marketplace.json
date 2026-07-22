@@ -1,0 +1,25 @@
+{
+  "name": "pertinent",
+  "owner": {
+    "name": "Chris Dickinson",
+    "email": "chris@neversaw.us"
+  },
+  "metadata": {
+    "description": "Chris Dickinson's personal Claude Code skills — productivity and trivia-backed memory workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pertinent",
+      "source": "./",
+      "description": "Productivity and memory skills: grilling, handoffs, teaching, trivia-backed session start/retro, project bootstrap, and research spelunking.",
+      "keywords": [
+        "skills",
+        "productivity",
+        "trivia",
+        "memory",
+        "research"
+      ]
+    }
+  ]
+}
