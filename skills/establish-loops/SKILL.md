@@ -1,11 +1,11 @@
 ---
-name: dev-loop
+name: establish-loops
 description: Use when the user wants Claude to learn how to run and operate a repo locally, then bake that knowledge into repo-local skills. It reads the docs and task runner (including how to pass extra args to narrow a test to one file, and whether to prefer the runner or the package manager), learns how the developer runs and hot-reloads the server outside Claude, learns to observe and drive it (logs or tmux, tests, UI, backing data stores), writes `iterate`- and `cut-pr`-style skills into the repo, and adds the missing task-runner recipes. Triggers on "set up the dev loop", "learn how to run this repo", "generate iterate/cut-pr skills for this project", "map how this project runs".
 allowed-tools: Bash, Read, Edit, Write, Glob, Grep, Agent
 disable-model-invocation: true
 ---
 
-# Dev Loop
+# Establish Loops
 
 Learn to run and operate this repo like a developer. Save what you learn as
 repo-local skills. Add the task-runner recipes that are missing.
