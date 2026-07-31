@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Chris Dickinson's personal Claude Code skills — productivity and trivia-backed memory workflows.",
-    "version": "0.1.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
