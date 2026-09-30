@@ -29,6 +29,8 @@ their own Trivia URL instead; either way these skills just call the MCP tools.
 | `session-start`        | Recall a project's focus + lessons, confirm direction, plan the work.        |   ✓    |
 | `session-retro`        | Turn a session's lessons into durable trivia memories.                       |   ✓    |
 | `spelunk`              | Record research/investigation findings under the structured `spelunk` tag.   |   ✓    |
+| `pr-walkthrough`       | Open a PR's key files as nvim tabs, each beside a primed Claude session.     |        |
+| `simplify-dot`         | Declutter a Graphviz graph: detail into tooltips, collapse, focus views.     |        |
 
 ## Trivia conventions
 
@@ -47,7 +49,7 @@ the map of the terrain, kept separate from the trip report.
 
 - `handoff`, `grilling`, `grill-me`, `teach` — from [mattpocock/skills][matt] (MIT).
 - `session-start`, `session-retro`, `project-trivia-setup` — from [ceejbot/ceej-skills][ceej] (MIT).
-- `spelunk` — original to this plugin.
+- `spelunk`, `simplify-dot` — original to this plugin.
 
 Upstream `agents/openai.yaml` files (OpenAI-runtime config) were dropped; the
 `disable-model-invocation` frontmatter already conveys the same intent to
